@@ -20,7 +20,4 @@ public class Main
         Mobil b = new MobilBensin("Mobil", "civic", 2018, "White",0.3,0.5);
         b.BahanBakar();
     }
-    
-    
-    
 }
