@@ -5,10 +5,6 @@ public class CheckKendaraan {
         System.out.println("|   Jenis_kendaraan   |   Nama    |   Warna   | Tahun | Jarak   | Waktu | Kecepatan |");
         System.out.println("+---------------------+-----------+-----------+-------+---------+-------+-----------+");
         
-        
-
-
-
         if (kendaraan instanceof Becak || kendaraan instanceof Bus || kendaraan instanceof Mobil || kendaraan instanceof Motor) {
             String jenis = "";
             String nama = "";
@@ -55,17 +51,13 @@ public class CheckKendaraan {
 
             System.out.printf("| %-12s        | %-10s| %-10s| %5d | %7.2f | %5.2f | %7.2f   |%n", jenis, nama, warna, tahun, jarak, waktu, 
             Kecepatan);
-
        
         } 
         else {
             System.out.println("| Jenis kendaraan tidak dikenal.                  ");
         }
-        System.out.println("+---------------------+-----------+-----------+-------+---------+-------+-----------+");
-        
-                 
+        System.out.println("+---------------------+-----------+-----------+-------+---------+-------+-----------+");              
     }
-    
 
     public static void main(String[] args) {
         KendaraanDarat becak = new Becak("Becak", "Becak Saya", 2020, "Hijau", 2.3, 0.5);
