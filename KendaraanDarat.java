@@ -6,7 +6,6 @@ public abstract class KendaraanDarat{
     private double Kecepatan;
     private double Jarak;
     private double Waktu;
-    
 
     public KendaraanDarat(String Jenis, String Nama, int Tahun, String Warna, double Jarak, double Waktu) {
         this.Jenis = Jenis;
@@ -57,7 +56,6 @@ public abstract class KendaraanDarat{
         this.Kecepatan = kecepatan;
     }
 
-    // Getter dan Setter untuk Jarak
     public double getJarak() {
         return Jarak;
     }
@@ -66,7 +64,6 @@ public abstract class KendaraanDarat{
         this.Jarak = jarak;
     }
 
-    // Getter dan Setter untuk Waktu
     public double getWaktu() {
         return Waktu;
     }
@@ -93,7 +90,6 @@ public abstract class KendaraanDarat{
         System.out.println("Warna: " + this.Waktu); 
    }
    
-    
     public abstract void JenisKendaraan();
     
     public void setJeniss(String Jenis)
