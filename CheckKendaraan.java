@@ -60,10 +60,11 @@ public class CheckKendaraan {
     }
 
     public static void main(String[] args) {
-        KendaraanDarat becak = new Becak("Becak", "Becak Saya", 2020, "Hijau", 2.3, 0.5);
-        KendaraanDarat bus = new Bus("Bus", "Busku", 2018, "Merah",0.2,0.4);
-        KendaraanDarat mobil = new Mobil("Sedan", "Mobil Saya", 2021, "Hitam",0.3,0.6);
-        KendaraanDarat motor = new Motor("Sepeda Motor", "Motor Saya", 2019, "Biru",0.8,0.7);
+        KendaraanDarat becak = new Becak("Becak", "Becak Jawa", 2020, "Hijau", 2.3, 0.5);
+        KendaraanDarat bus = new Bus("Bus", "Pelangi", 2018, "Merah",0.2,0.4);
+        KendaraanDarat mobil = new Mobil("Sedan", "Civic", 2021, "Hitam",0.3,0.6);
+        KendaraanDarat motor = new Motor("Sepeda Motor", "ZX25r", 2019, "Biru",0.8,0.7);
+
 
         CheckKendaraan checker = new CheckKendaraan();
 
