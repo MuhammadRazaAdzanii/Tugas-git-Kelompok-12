@@ -8,6 +8,6 @@ public class Mobil extends KendaraanDarat {
     { }
     
     public void JenisKendaraan(){
-        this.setJenis("civic");
+        this.setJenis("Mobil");
     }
 }
