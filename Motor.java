@@ -4,6 +4,6 @@ public class Motor extends KendaraanDarat {
     }
 
     public void JenisKendaraan(){
-        this.setJenis("civic");
+        this.setJenis("Motor");
     }
 }
