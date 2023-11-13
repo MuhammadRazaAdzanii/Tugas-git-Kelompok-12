@@ -5,6 +5,6 @@ public class Becak extends KendaraanDaran{
     }
 
     public void JenisKendaraan(){
-        this.setJenis("civic");
+        this.setJenis("BecakJawa");
     }
 }
