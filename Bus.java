@@ -5,7 +5,7 @@ public class Bus extends KendaraanDarat {
     }
 
     public void JenisKendaraan(){
-        this.setJenis("civic");
+        this.setJenis("Bus");
     }
     
 }
