@@ -8,7 +8,7 @@ public class Main
         Motor motor1 = new Motor("Motor","ZX25r", 2021, "Green",0.2,0.2);
         motor1.display();
         
-        Bus bus1 = new Bus("Bus","Pelangi", 2023, "Rinbow",0.8,0.2);
+        Bus bus1 = new Bus("Bus","Pelangi", 2023, "Rainbow",0.8,0.2);
         bus1.display();
         
         Becak becak1 = new Becak("Becak","Becak Jawa", 2019, "Red",0.2,0.5);
